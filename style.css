@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a1d1c;
+    color: #e4e4e4;
+    margin: 0;
+    line-height: 1.6;
+}
+
+nav {
+    position: static;
+    top: 0;
+    z-index: 100;
+}
+
+.sub-nav {
+    background-color: #232927;
+    padding: 8px;
+    border-bottom: 1px solid #3a4440;
+}
+
+.sub-nav {
+    top: 52px;
+    z-index: 99;
+}
+
+section {
+    scroll-margin-top: 110px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #aa7cf5;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* Header */
+header {
+    background-color: #232927;
+    text-align: center;
+    padding: 25px 10px;
+    border-bottom: 3px solid #3fb68b;
+}
+
+.photo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+    border: 4px solid #3fb68b;
+}
+
+h1 {
+    color: #3fb68b;
+    margin: 10px 0;
+}
+
+/* Main content */
+main {
+    width: 80%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #252b29;
+    padding: 15px 25px;
+    margin-bottom: 20px;
+    border: 1px solid #3a4440;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+}
+
+h2 {
+    color: #3fb68b;
+    border-bottom: 2px solid #e07a4f;
+    padding-bottom: 5px;
+}
+
+/* Soft skills list */
+li {
+    margin-bottom: 5px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border: 1px solid #4a5651;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #3fb68b;
+    color: #0f1211;
+}
+
+tr:nth-child(even) {
+    background-color: #2d3532;
+}
+
+a {
+    color: #f5a47c;
+}
+
+/* Contact form */
+form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    background-color: #1a1d1c;
+    color: #e4e4e4;
+    border: 1px solid #5a6761;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 25px;
+    background-color: #e07a4f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #3fb68b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #0f1211;
+    color: #aaa;
+    border-top: 2px solid #3fb68b;
+}
+
+.sub-nav a {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
