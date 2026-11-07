@@ -93,6 +93,7 @@ li {
 table {
     width: 100%;
     border-collapse: collapse;
+    table-layout: fixed;
 }
 
 th,
@@ -100,6 +101,8 @@ td {
     border: 1px solid #4a5651;
     padding: 8px;
     text-align: left;
+    overflow-wrap: anywhere;
+}
 }
 
 th {
